@@ -1,3 +1,25 @@
+# Author
+
+Samuel Casellas\
+25 October, 2022\
+BYUI Technical Challenge
+
+# Project Details
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+1. In the project directory BYUI-Technical-Challenge, run `npm install` \
+to install all the needed dependencies for the app as listed in package.json. Do the same while in the react-web-app directory.
+
+2. In the project directory BYUI-Technical-Challenge,\
+Run `npm run app` and `npm run server` in two separate terminals to run the app and server, respectively.
+
+3. Finally, open [http://localhost:3005](http://localhost:3005) to view it in your browser.
+
+NOTE: If challenges arise, do the following:\
+Run `npm update` at folders levels to bring everything up to date\
+and then run `npm link BYUI-technical-challenge/node_modules/react` from the sub directory
+
 ## Thank you for applying to Shine Solar! **(DO NOT FORK)**
 
 ### Summary

@@ -6,6 +6,7 @@ const middlewares = jsonServer.defaults()
 server.use(middlewares)
 
 server.use((req, res, next) => {
+  console.log(process.env.BearerToken)
     if(req.headers.authorization && req.headers.authorization.split(" ")[0] === "Bearer") {
         if(req.headers.authorization.split(" ")[1] === process.env.BearerToken) {
             next()
